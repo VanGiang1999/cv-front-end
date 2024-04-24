@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen Van Giang</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cv-layout">
+        <header>
+            <div class="cv-header-box">
+                <div class="cv-logo">
+                    <img src="FileImage/logo.png" alt="">
+                </div>
+                <div class="cv-menu">
+                    <ul>
+                        <li class="active">Abount Me</li>
+                        <li>Skills</li>
+                        <li>Pet-Project</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <section class="cv-banner-box">
+            <div class="cv-banner">
+                <div class="cv-banner-left">
+                    <div class="cv-heading">
+                        Nguyen Van Giang
+                    </div>
+                    <div class="cv-title">
+                        Frontend Developer
+                    </div>
+                    <div class="cv-message">
+                        Frontend developer looking for ideas and <br> projects for himself and others
+                    </div>
+                </div>
+                <div class="cv-banner-right">
+                    <p>
+                        let button_menu = document.querySelector(".header_button");
+                        <br>
+                        let float_menu = document.querySelector(".header_menu--float");
+                    </p>
+                    <p>
+                        let line_top = document.querySelector(".header_button_line--top");
+                        <br>
+                        let line_under = document.querySelector(".header_button_line--bottom");
+                    </p>
+
+                    <p>button_menu.isSelected = false;</p>
+
+                    <p>
+                        function addEffectWriting(element, time) {
+                        <br>
+                        &nbsplet element_array = element.innerText.split("");
+                    </p>
+
+                    <p>
+                        &nbspelement.count = 0;
+                        <br>
+                        &nbspelement.innerText = "";
+                    </p>
+
+                    <p>
+                        function writeSymbols() {
+                        <br>
+                        &nbspelement.innerText += element_array[element.count];
+                        <br>
+                        &nbspelement.count++;
+                    </p>
+
+                    <p>
+                        &nbspif (element.count <= element_array.length) { setTimeout(()=> {
+                            <br>
+                            &nbsp&nbspwriteSymbols();
+                            <br>
+                            &nbsp}, time);
+                            <br>
+                            &nbsp} else if (element.count >= element_array.length) {
+                            <br>
+                            &nbsp&nbspelement.count = 0;
+                            <br>
+                            &nbsp&nbspelement.innerText = "";
+                            <br>
+
+                            &nbsp&nbspwriteSymbols();
+                            <br>
+                            &nbsp}
+                            <br>
+                            &nbsp}
+                            <br>
+                            &nbspwriteSymbols();
+                            <br>
+                            &nbsp}
+
+                    </p>
+                    <div class="cv-avatar-bg">
+                       <img src="FileImage/bg-1.png" alt="">
+                    </div>
+                    <div class="cv-avatar-bg-2">
+                        <img src="FileImage/bg-2.png" alt="">
+                     </div>
+                     <div class="cv-avatar">
+                        <img src="FileImage/avatar-removebg-preview.png" alt="">
+                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="cv-sologen">
+            <img src="FileImage/icon-sologen.png" alt="">
+            <p>
+                A few years ago, I became interested in developing websites and interfaces. Since then, I have been steadily improving my skills. Now I am developing websites and web applications to order or for myself.
+            </p>
+        </section>
+        <section class="cv-skills-box">
+            <div class="cv-title-skill">
+                My Skills
+            </div>
+            <div class="cv-list-skill">
+                <div class="cv-item-skill">
+                    <div class="cv-icon-skill">
+                        <img src="FileImage/iconHtml.png" alt="">
+                    </div>
+                    <div class="cv-name-skill">
+                        HTML5
+                    </div>
+                </div>
+                <div class="cv-item-skill">
+                    <div class="cv-icon-skill">
+                        <img src="FileImage/iconCss.png" alt="">
+                    </div>
+                    <div class="cv-name-skill">
+                        CSS3
+                    </div>
+                </div>
+                <div class="cv-item-skill">
+                    <div class="cv-icon-skill">
+                        <img src="FileImage/iconJs.png" alt="">
+                    </div>
+                    <div class="cv-name-skill">
+                        Javascript
+                    </div>
+                </div>
+                <div class="cv-item-skill">
+                    <div class="cv-icon-skill">
+                        <img src="FileImage/iconScss.png" alt="">
+                    </div>
+                    <div class="cv-name-skill">
+                        SCSS
+                    </div>
+                </div>
+                <div class="cv-item-skill">
+                    <div class="cv-icon-skill">
+                        <img src="FileImage/iconGit.png" alt="">
+                    </div>
+                    <div class="cv-name-skill">
+                        Git
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cv-my-works-box">
+            <div class="cv-my-works-heading">My Works</div>
+        </section>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

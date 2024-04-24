@@ -1,0 +1,178 @@
+body {
+    font-family: "Inconsolata";
+    background: #1b1a17;
+    margin: 0;
+}
+.cv-layout {
+    max-width: 1200px;
+    margin: auto;
+}
+.cv-logo {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cv-logo img {
+    max-width: 100%;
+}
+.cv-header-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 21px 0px;
+}
+.cv-header-box .cv-menu ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.cv-header-box .cv-menu ul li {
+    list-style-type: none;
+    margin-left: 60px;
+    color: #f0e3ca;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 21px;
+}
+.cv-header-box .cv-menu ul li.active {
+    color: #ff8303;
+}
+
+.cv-banner {
+    display: grid;
+    grid-template-columns: 45% 50%;
+    min-height: 500px;
+    grid-gap: 5%;
+    align-items: center;
+}
+.cv-heading {
+    font-family: "Inconsolata";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 67px;
+    color: #ff8303;
+    margin-bottom: 15px;
+}
+.cv-title {
+    font-family: "Inconsolata";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    color: #f0e3ca;
+    margin-bottom: 10px;
+}
+.cv-message {
+    font-family: "Inconsolata";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    color: #f0e3ca;
+}
+.cv-banner-right{
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    position: relative;
+    color: rgba(163, 87, 9, 0.5);
+    padding: 30px 0px;
+}
+.cv-avatar-bg{
+    position: absolute;
+    width: 360px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cv-avatar-bg img{
+    max-width: 100%;
+}
+.cv-avatar-bg-2{
+    position: absolute;
+    width: 380px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+img{
+    max-width: 100%;
+}
+.cv-avatar{
+    position: absolute;
+    width: 380px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    overflow: hidden;
+    border-radius: 48% 52% 66% 34% / 56% 51% 49% 44%;
+}
+.cv-sologen{
+    display: flex;
+    align-items: center;
+    padding: 40px 30px;
+}
+.cv-sologen img{
+    width: 100px;
+}
+.cv-sologen p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+    color: #F0E3CA;
+    padding-left: 30px;
+}
+.cv-icon-skill{
+    width: 130px;
+    height: 130px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+.cv-icon-skill img{
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto !important;
+    height: auto !important;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    margin: auto;
+    transition: all 0.2s ease;
+}
+.cv-name-skill{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 20px;
+}
+.cv-title-skill,.cv-my-works-heading{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 34px;
+    text-align: center;
+    color: #FF8303;
+    margin-bottom: 40px;
+}
+.cv-skills-box{
+    padding: 40px 0px;
+}
+.cv-item-skill{
+    background: #21201D;
+    border-radius: 10px;
+    padding: 57px 0px;
+}
+.cv-my-works-box{
+    padding: 60px 0px;
+}
